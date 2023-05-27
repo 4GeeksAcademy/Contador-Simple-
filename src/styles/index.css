@@ -1,12 +1,32 @@
-
-/* 
-
-    You can write your own styles here...
+.calendar {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+  }
+  
+  .time > div {
+    margin-right: 10px;
+    font-size: 80px;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  }
+  
+  
+  
+  
